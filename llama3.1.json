@@ -1,0 +1,10 @@
+[
+    {
+        "Question": "Does the policy clearly outline data collection practices?",
+        "Answer": "Yes, it does! According to point 1 of the summary, **\"Spotify collects various types of personal data from users, including account information, usage data, and device information.\"** This clearly outlines Spotify's data collection practices."
+    },
+    {
+        "Question": "Does the company minimize data retention periods?",
+        "Answer": "According to section 3 of the summary: \"Spotify retains personal data for as long as necessary to achieve these purposes, but will delete it when no longer needed.\"\n\nThis suggests that Spotify does indeed aim to minimize data retention periods by only keeping user data for as long as necessary."
+    }
+]

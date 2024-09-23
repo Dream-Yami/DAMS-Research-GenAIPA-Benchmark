@@ -1,0 +1,12 @@
+[
+    {
+        "Question": "llama3.1",
+        "Reviewer": "Does the policy clearly outline data collection practices?",
+        "Score": "{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +0.5,\n  \"Accuracy\": +0\n}"
+    },
+    {
+        "Question": "mistral",
+        "Reviewer": "Does the policy clearly outline data collection practices?",
+        "Score": " {\n      \"completeness\": +0.5,\n      \"clarity\": +1,\n      \"reference\": +1,\n      \"relevance\": +1,\n      \"accuracy\": +0.5\n    }"
+    }
+]
