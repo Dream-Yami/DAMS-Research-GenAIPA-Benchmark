@@ -1,15 +1,17 @@
 from ollamaMain import genResponse, expOne, expTwo, expThree_One, expThree_Two
 import csv
 import json
+import time
 
 #Initialize variables for later use. Makes file access harder.
-models = ["llama3.1", "mistral", "gemma2"]
+models = ["llama3.1", "mistral", "gemma2", "qwen2", "llava"]
 questionFile = 'questions.csv'
 answerFile = 'annotatedAnswer.csv'
 policyFile = 'document.txt'
 question_list =[]
 annotated_answer_list = []
 answerDict = {}
+startTime = time.time()
 
 for i in range(len(models)):
     answerDict[models[i]] = []
@@ -47,22 +49,22 @@ def expOneModelCall(policyDoc):
     for i in range(len(question_list)):
         for j  in range(len(models)):
             answerDict[models[j]].append(expOne(models[j], question_list[i], policyDoc))
-            print(models[j], answerDict[models[j]])
+            #print(models[j], answerDict[models[j]])
             
 def expTwoModelCall():
     for i in range(len(question_list)):
         for j  in range(len(models)):
             answerDict[models[j]].append(expTwo(models[j], question_list[i]))
-            print(models[j], answerDict[models[j]])
+            #print(models[j], answerDict[models[j]])
             
 def expThreeModelCall(policyDoc):
     for i in range(len(question_list)):
         model_summaries = []
         for j  in range(len(models)):
             model_summaries.append(expThree_One(models[j], policyDoc))
-            print(models[j], model_summaries[j])
+            #print(models[j], model_summaries[j])
             answerDict[models[j]].append(expThree_Two(models[j], question_list[i], model_summaries[j]))
-            print(models[j], answerDict[models[j]])
+            #print(models[j], answerDict[models[j]])
     
 #With a list of answers, we can simply build and export the json file with answers
 def package(list, name):
@@ -98,12 +100,12 @@ def reviewAnswers(experimentName):
             for k in range(len(models)):
                 if j != k:
                     LLM_Scores[models[j]].append((models[k], question_list[i], genResponse(models[k], answerDict[models[j]][i], annotated_answer_list[i])))
-    print(LLM_Scores)
+    #print(LLM_Scores)
     packageExpParent(LLM_Scores, experimentName)
 
 def experimentOne():
     policyString = readPolicyDocuments(policyFile)
-    #print(policyString)
+    ##print(policyString)
     readAnswers(answerFile)
     readQuestions(questionFile)
     expOneModelCall(policyString)
@@ -113,7 +115,7 @@ def experimentOne():
     
 def experimentTwo():
     #policyString = readPolicyDocuments(policyFile)
-    #print(policyString)
+    ##print(policyString)
     readAnswers(answerFile)
     readQuestions(questionFile)
     expTwoModelCall()
@@ -123,7 +125,7 @@ def experimentTwo():
     
 def experimentThree():
     policyString = readPolicyDocuments(policyFile)
-    #print(policyString)
+    ##print(policyString)
     readAnswers(answerFile)
     readQuestions(questionFile)
     expThreeModelCall(policyString)
@@ -132,9 +134,10 @@ def experimentThree():
     reviewAnswers("ExpThree")
 
 if __name__ == '__main__':
-    print("Test")
-    #experimentOne()
+    #print("Test")
+    experimentOne()
     #experimentTwo()
-    experimentThree()
+    #experimentThree()
+    print((time.time() - startTime)/60, " Minutes")
     print("completed")
     

@@ -18,7 +18,7 @@ def expOne(model_name, content, policyDoc = ""):
         
         stream=False
     )
-    #print(response["message"]["content"])
+    ##print(response["message"]["content"])
     return response["message"]["content"]
 
 #expTwo: Given NO privacy document, answer to best ability.
@@ -39,7 +39,7 @@ def expTwo(model_name, content):
         
         stream=False
     )
-    #print(response["message"]["content"])
+    ##print(response["message"]["content"])
     return response["message"]["content"]
 
 #expThree-One: Given a Privacy Document, Get a summary
@@ -60,7 +60,7 @@ def expThree_One(model_name, policyDoc = ""):
         
         stream=False
     )
-    #print(response["message"]["content"])
+    ##print(response["message"]["content"])
     return response["message"]["content"]
 
 #expThree-Two: Given a summary of a Privacy Document, Answer question to best ability.
@@ -80,7 +80,7 @@ def expThree_Two(model_name, content, summary = ""):
         
         stream=False
     )
-    #print(response["message"]["content"])
+    ##print(response["message"]["content"])
     return response["message"]["content"]
 
 def genResponse(model_name, LLManswer, annotatedAnswer):
@@ -103,7 +103,7 @@ def genResponse(model_name, LLManswer, annotatedAnswer):
         
         stream=False
     )
-    #print(response["message"]["content"])
+    ##print(response["message"]["content"])
     return response["message"]["content"]
     
 if __name__ == '__main__':

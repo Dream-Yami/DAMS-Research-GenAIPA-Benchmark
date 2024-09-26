@@ -17,7 +17,7 @@ def genMistralResponse(content, policyDoc):
         
         stream=False
     )
-    print(response["message"]["content"])
+    #print(response["message"]["content"])
     return response["message"]["content"]
     
     

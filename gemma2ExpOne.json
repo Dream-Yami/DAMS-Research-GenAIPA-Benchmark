@@ -2,21 +2,41 @@
     {
         "Question": "Does the policy clearly outline data collection practices?",
         "Reviewer": "llama3.1",
-        "Score": "```\n{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +1,\n  \"Accuracy\": -1\n}\n```"
+        "Score": "{\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": -1,\n\"relevance\": -1,\n\"accuracy\": +0.5\n}"
     },
     {
         "Question": "Does the policy clearly outline data collection practices?",
         "Reviewer": "mistral",
-        "Score": " {\n    \"completeness\": +1,\n    \"clarity\": +1,\n    \"reference\": +1,\n    \"relevance\": +1,\n    \"accuracy\": +0.5\n   }"
+        "Score": " {\n      \"completeness\": +1,\n      \"clarity\": +1,\n      \"reference\": +1,\n      \"relevance\": +1,\n      \"accuracy\": +0.5\n   }"
+    },
+    {
+        "Question": "Does the policy clearly outline data collection practices?",
+        "Reviewer": "qwen2",
+        "Score": "{\n  \"completeness\": 1,\n  \"clarity\": 0.5,\n  \"relevance\": 1,\n  \"accuracy\": 1,\n  \"reference\": 0.5\n}"
+    },
+    {
+        "Question": "Does the policy clearly outline data collection practices?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +1,\n\"clarity\": +1,\n\"reference\": -1,\n\"relevance\": +1,\n\"accuracy\": +1\n} "
     },
     {
         "Question": "Does the company minimize data retention periods?",
         "Reviewer": "llama3.1",
-        "Score": "```\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": -1\n}\n```"
+        "Score": "```\n{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +0.5,\n  \"Accuracy\": -1\n}\n```"
     },
     {
         "Question": "Does the company minimize data retention periods?",
         "Reviewer": "mistral",
-        "Score": " {\n      \"completeness\": 0.5,\n      \"clarity\": 1,\n      \"reference\": -0.5,\n      \"relevance\": 0.5,\n      \"accuracy\": -1\n   }"
+        "Score": " {\n      \"completeness\": -1,\n      \"clarity\": +0.5,\n      \"reference\": -1,\n      \"relevance\": -1,\n      \"accuracy\": -1\n   }"
+    },
+    {
+        "Question": "Does the company minimize data retention periods?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": 0, \"reference\": -1, \"relevance\": -1, \"accuracy\": -1}"
+    },
+    {
+        "Question": "Does the company minimize data retention periods?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": +0.5,\n\"relevance\": -1,\n\"accuracy\": -1\n} "
     }
 ]

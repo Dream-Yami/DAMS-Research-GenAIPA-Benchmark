@@ -1,10 +1,10 @@
 [
     {
         "Question": "Does the policy clearly outline data collection practices?",
-        "Answer": "Yes, it does! According to point 1 of the summary, **\"Spotify collects various types of personal data from users, including account information, usage data, and device information.\"** This clearly outlines Spotify's data collection practices."
+        "Answer": "Yes, the policy clearly outlines data collection practices in sections such as:\n\n* Section 1: \"What kind of data do we collect about you?\"\n\t+ This section explains that Spotify collects various types of personal and non-personal data, including account information, profile information, play history, usage data, location data, and other data.\n* Section 3: \"Personal data we collect about you\"\n\t+ This section provides a detailed list of the specific types of personal data collected by Spotify, such as name, email address, username, password, location data, device information, and more.\n\nThe policy also explains how this data is used, shared, and protected, which helps users understand what they're consenting to when using the service."
     },
     {
         "Question": "Does the company minimize data retention periods?",
-        "Answer": "According to section 3 of the summary: \"Spotify retains personal data for as long as necessary to achieve these purposes, but will delete it when no longer needed.\"\n\nThis suggests that Spotify does indeed aim to minimize data retention periods by only keeping user data for as long as necessary."
+        "Answer": "According to Section 6 of the policy:\n\n\"Minimise Data Retention Periods\n\nWe limit the time we retain your personal data to what is necessary for the purposes outlined in this Policy. We do not keep any data for longer than necessary. We will delete or anonymise your personal data when it is no longer needed.\"\n\nSo, yes, the company does minimize data retention periods."
     }
 ]

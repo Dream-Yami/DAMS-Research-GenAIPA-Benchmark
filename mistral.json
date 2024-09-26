@@ -1,10 +1,10 @@
 [
     {
         "Question": "Does the policy clearly outline data collection practices?",
-        "Answer": " Yes, the Privacy Policy Document outlines that Spotify does collect personal data from its users (Part 1). However, it doesn't specify the exact types of personal data collected. It does clarify that they do not collect or use personal data from children under the applicable age limit in each country or region where the service is offered (Part 5). For detailed information on specific data collection practices, I recommend referring to the updated version of the policy available on the Spotify website."
+        "Answer": " Yes, the policy provides a clear outline of the data collection practices by Spotify. It explains the types of personal data collected, the purpose for which it is collected, how it may be shared with subcontractors and partners in compliance with applicable EU legislation, and the security measures implemented to protect this data. The policy also specifies that users have certain rights under the Standard Contractual Clauses and provides contact information for users who wish to exercise those rights or ask questions or raise concerns about the policy. The policy is written in a clear, easy-to-understand manner and includes links to additional resources for further information."
     },
     {
         "Question": "Does the company minimize data retention periods?",
-        "Answer": " According to the provided summary, there's no explicit mention that the company (Spotify) minimizes data retention periods. However, it does ensure compliance with applicable EU legislation which may imply certain data retention standards. For specific information regarding data retention, I would recommend contacting Spotify directly as stated in point 6 of the summary."
+        "Answer": " Yes, the company minimizes data retention periods as part of its commitment to protecting personal data. They have implemented various safeguards including pseudonymization, encryption, access, and retention policies to help guard against unauthorized access and unnecessary retention of personal data in their systems. However, users are encouraged to log out of their Spotify account once they have finished using the service on a shared device and use a strong password which is only used for their Spotify account."
     }
 ]

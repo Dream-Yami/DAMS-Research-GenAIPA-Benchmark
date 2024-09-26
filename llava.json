@@ -1,0 +1,10 @@
+[
+    {
+        "Question": "Does the policy clearly outline data collection practices?",
+        "Answer": " The policy provides information about the data collected by Spotify and how it is used. It also explains the legal basis for data collection and the rights of users regarding their data. However, it does not provide specific details about the types of data collected or the purposes for which it is used. Therefore, while the policy outlines data collection practices to some extent, it could be more clear and detailed in its descriptions. "
+    },
+    {
+        "Question": "Does the company minimize data retention periods?",
+        "Answer": " Yes, the company minimizes data retention periods. It has implemented technical protections such as encryption and pseudonymization policies and processes to challenge disproportionate or unlawful government authority requests. It also uses access, and retention policies to protect the security of users' personal data. "
+    }
+]

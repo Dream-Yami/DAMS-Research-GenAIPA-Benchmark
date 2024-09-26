@@ -16,7 +16,7 @@ def genLlama31Response(content, policyDoc):
         
         stream=False
     )
-    print(response["message"]["content"])
+    #print(response["message"]["content"])
     return response["message"]["content"]
 
 def genLlama31Review(annotatedAnswer, LLMAnswer):
@@ -37,7 +37,7 @@ def genLlama31Review(annotatedAnswer, LLMAnswer):
         
         stream=False
     )
-    print(response["message"]["content"])
+    #print(response["message"]["content"])
     return response["message"]["content"]
     
     
