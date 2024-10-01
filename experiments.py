@@ -16,6 +16,17 @@ annotated_answer_list = []
 answerDict = {}
 startTime = time.time()
 
+def resetQuestionAnswer():
+    global question_list
+    global annotated_answer_list
+    global answerDict
+    question_list =[]
+    annotated_answer_list = []
+    answerDict = {}
+    for i in range(len(models)):
+        answerDict[models[i]] = []
+
+
 def reset():
     global answerFile
     global policyFile
@@ -64,22 +75,21 @@ def expOneModelCall(policyDoc):
     for i in range(len(question_list)):
         for j  in range(len(models)):
             answerDict[models[j]].append(expOne(models[j], question_list[i], policyDoc))
-            #print(models[j], answerDict[models[j]])
+            print(models[j], question_list[i], i)
             
 def expTwoModelCall():
     for i in range(len(question_list)):
         for j  in range(len(models)):
             answerDict[models[j]].append(expTwo(models[j], question_list[i]))
-            #print(models[j], answerDict[models[j]])
+            print(models[j], question_list[i], i)
             
 def expThreeModelCall(policyDoc):
     for i in range(len(question_list)):
         model_summaries = []
         for j  in range(len(models)):
             model_summaries.append(expThree_One(models[j], policyDoc))
-            #print(models[j], model_summaries[j])
             answerDict[models[j]].append(expThree_Two(models[j], question_list[i], model_summaries[j]))
-            #print(models[j], answerDict[models[j]])
+            print(models[j], question_list[i], i)
     
 #With a list of answers, we can simply build and export the json file with answers
 def package(list, name):
@@ -117,6 +127,7 @@ def reviewAnswers(experimentName):
             for k in range(len(models)):
                 if j != k:
                     LLM_Scores[models[j]].append((models[k], question_list[i], genResponse(models[k], answerDict[models[j]][i], annotated_answer_list[i])))
+                    print(models[j], models[k], question_list[i])
     #print(LLM_Scores)
     packageExpParent(LLM_Scores, experimentName)
 
@@ -137,7 +148,9 @@ def experimentTwo():
     ##print(policyString)
     readAnswers(answerFile)
     readQuestions(questionFile)
+    print("Beginning Answers")
     expTwoModelCall()
+    print("Beginning Reviews")
     for i in range(len(models)):
         package(answerDict[models[i]], models[i])
     reviewAnswers("ExpTwo")
@@ -147,7 +160,9 @@ def experimentThree():
     ##print(policyString)
     readAnswers(answerFile)
     readQuestions(questionFile)
+    print("Beginning Answers")
     expThreeModelCall(policyString)
+    print("Beginning Reviews")
     for i in range(len(models)):
         package(answerDict[models[i]], models[i])
     reviewAnswers("ExpThree")
@@ -157,8 +172,11 @@ def run(companyName):
     company = companyName
     changeGlobals()
     experimentOne()
-    #experimentTwo()
-    #experimentThree()
+    resetQuestionAnswer()
+    experimentTwo()
+    resetQuestionAnswer()
+    experimentThree()
+    resetQuestionAnswer()
     print((time.time() - startTime)/60, " Minutes")
     print("completed")
     reset()
