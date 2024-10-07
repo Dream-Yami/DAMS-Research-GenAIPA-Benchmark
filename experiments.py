@@ -92,10 +92,10 @@ def expThreeModelCall(policyDoc):
             print(models[j], question_list[i], i)
     
 #With a list of answers, we can simply build and export the json file with answers
-def package(list, name):
+def package(list, name, expName):
     os.makedirs(company, exist_ok=True)
     qa_Pairs = [{"Question": q, "Answer": a} for q, a in zip(question_list, list)]
-    json_file_name = company + "/" + name + '.json'
+    json_file_name = company + "/" + name + "_answers_" + expName + '.json'
     with open(json_file_name, 'w', encoding='utf-8') as json_file:
         json.dump(qa_Pairs, json_file, indent=4)
 
@@ -140,7 +140,7 @@ def experimentOne():
     expOneModelCall(policyString)
     print("Beginning Reviews")
     for i in range(len(models)):
-        package(answerDict[models[i]], models[i])
+        package(answerDict[models[i]], models[i], "expOne")
     reviewAnswers("ExpOne")
     
 def experimentTwo():
@@ -152,7 +152,7 @@ def experimentTwo():
     expTwoModelCall()
     print("Beginning Reviews")
     for i in range(len(models)):
-        package(answerDict[models[i]], models[i])
+        package(answerDict[models[i]], models[i], "expTwo")
     reviewAnswers("ExpTwo")
     
 def experimentThree():
@@ -164,7 +164,7 @@ def experimentThree():
     expThreeModelCall(policyString)
     print("Beginning Reviews")
     for i in range(len(models)):
-        package(answerDict[models[i]], models[i])
+        package(answerDict[models[i]], models[i], "expThree")
     reviewAnswers("ExpThree")
 
 def run(companyName):
