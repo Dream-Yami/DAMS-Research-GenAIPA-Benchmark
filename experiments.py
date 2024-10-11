@@ -120,7 +120,13 @@ def expFourModelCall(policyDoc, question_para_list):
         for j  in range(len(models)):
             answerDict[models[j]].append(expOne(models[j], question_para_list[i], policyDoc))
             print(models[j], question_para_list[i], i)
-    
+
+def expFiveModelCall(policyDoc, question_para_list):
+    for i in range(len(question_para_list)):
+        for j  in range(len(models)):
+            answerDict[models[j]].append(expOne(models[j], question_para_list[i], policyDoc))
+            print(models[j], question_para_list[i], i)
+
 #With a list of answers, we can simply build and export the json file with answers
 def package(list, name, expName):
     os.makedirs(company, exist_ok=True)
@@ -181,6 +187,8 @@ def reviewParaAnswers(experimentName, question_para_list):
     #print(LLM_Scores)
     packageExpParent(LLM_Scores, experimentName)
 
+
+
 def experimentOne():
     policyString = readPolicyDocuments(policyFile)
     ##print(policyString)
@@ -190,7 +198,7 @@ def experimentOne():
     expOneModelCall(policyString)
     print("Beginning Reviews")
     for i in range(len(models)):
-        package(answerDict[models[i]], models[i], "expOne")
+        package(answerDict[models[i]], models[i], "ExpOne")
     reviewAnswers("ExpOne")
     
 def experimentTwo():
@@ -202,7 +210,7 @@ def experimentTwo():
     expTwoModelCall()
     print("Beginning Reviews")
     for i in range(len(models)):
-        package(answerDict[models[i]], models[i], "expTwo")
+        package(answerDict[models[i]], models[i], "ExpTwo")
     reviewAnswers("ExpTwo")
     
 def experimentThree():
@@ -214,7 +222,7 @@ def experimentThree():
     expThreeModelCall(policyString)
     print("Beginning Reviews")
     for i in range(len(models)):
-        package(answerDict[models[i]], models[i], "expThree")
+        package(answerDict[models[i]], models[i], "ExpThree")
     reviewAnswers("ExpThree")
     
 def experimentFour():
@@ -244,6 +252,18 @@ def experimentFour():
         reviewParaAnswers("ParaExpFour"+str(counter), col)
         counter += 1
 
+def experimentFive():
+    #policyString = readPolicyDocuments(policyFile)
+    ##print(policyString)
+    readAnswers(answerFile)
+    readQuestions(questionFile)
+    print("Beginning Answers")
+    expTwoModelCall()
+    print("Beginning Reviews")
+    for i in range(len(models)):
+        package(answerDict[models[i]], models[i], "ExpFive")
+    reviewAnswers("ExpFive")
+
 def run(companyName):
     global company
     company = companyName
@@ -254,11 +274,19 @@ def run(companyName):
     # resetQuestionAnswer()
     # experimentThree()
     # resetQuestionAnswer()
-    experimentFour()
+    # experimentFour()
     resetQuestionAnswer()
     print((time.time() - startTime)/60, " Minutes")
     print("completed")
     reset()
+
+def runReg(regulationName):
+    global company
+    global questionFile
+    company = regulationName
+    questionFile = regulationName+"RegulationQuestions.csv"
+    resetQuestionAnswer()
+    experimentFive()
 
 if __name__ == '__main__':
     run("Spotify")
