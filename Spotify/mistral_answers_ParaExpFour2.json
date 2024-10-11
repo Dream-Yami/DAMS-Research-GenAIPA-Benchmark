@@ -1,0 +1,10 @@
+[
+    {
+        "Question": "Is the policy written in a way most people can understand?",
+        "Answer": " Yes, the policy is generally written in a way that most people can understand. It provides clear information about how the company collects and processes personal data, including international transfers, security measures, and children's privacy. The language used is straightforward and easy to follow, with explanations of technical terms such as Standard Contractual Clauses (SCCs) and pseudonymization. However, some sections may still require additional clarification for those who are not familiar with the specifics of data protection laws or technologies."
+    },
+    {
+        "Question": "What does the company think about giving user data to the government?",
+        "Answer": " The provided text doesn't directly address the specific question about what the company thinks about giving user data to the government. However, it does mention that they have safeguards in place to protect user data, including using technical protections such as encryption and pseudonymization policies and processes to challenge disproportionate or unlawful government authority requests.\n\nIt's important to note that the company is committed to complying with applicable laws when transferring personal data internationally. They use legal mechanisms such as Standard Contractual Clauses (SCCs) which require the other party to protect user data and provide EU-level rights and protections, and Adequacy Decisions for transfers to countries outside of the European Economic Area which have adequate laws to protect personal data.\n\nIn case of any government data request, it's recommended to read more about protecting your account on Spotify's platform. The company encourages users to use strong passwords, limit access to their computer and browser, log out once finished using the service on a shared device, and utilize the \"Sign out everywhere\" function on their account page to protect their account from unauthorized access."
+    }
+]

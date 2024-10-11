@@ -1,0 +1,642 @@
+[
+    {
+        "Question": "Does the policy avoid using technical phrases or legalese that might mislead users?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": -1,\n\"relevance\": +1,\n\"accuracy\": -1\n}"
+    },
+    {
+        "Question": "Does the policy avoid using technical phrases or legalese that might mislead users?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +0.5,\n      \"clarity\": +1,\n      \"reference\": -1,\n      \"relevance\": +0.5,\n      \"accuracy\": -1\n    }"
+    },
+    {
+        "Question": "Does the policy avoid using technical phrases or legalese that might mislead users?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": +0.5, \"reference\": +0, \"relevance\": +1, \"accuracy\": +1}"
+    },
+    {
+        "Question": "Does the policy avoid using technical phrases or legalese that might mislead users?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -0.5,\n\"clarity\": +1,\n\"reference\": -1,\n\"relevance\": +0.5,\n\"accuracy\": -1\n} "
+    },
+    {
+        "Question": "What is the business' position on demands from the government for user data?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +0.5,\n  \"Accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "What is the business' position on demands from the government for user data?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +0.5,\n      \"clarity\": +1,\n      \"reference\": -1,\n      \"relevance\": +0.5,\n      \"accuracy\": +0.5\n    }"
+    },
+    {
+        "Question": "What is the business' position on demands from the government for user data?",
+        "Reviewer": "qwen2",
+        "Score": "{\n\"completeness\": 1,\n\"clarity\": 0.5,\n\"reference\": 0,\n\"relevance\": 1,\n\"accuracy\": 1\n}"
+    },
+    {
+        "Question": "What is the business' position on demands from the government for user data?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +1,\n\"clarity\": +0.5,\n\"reference\": -1,\n\"relevance\": +1,\n\"accuracy\": +0.5\n} "
+    },
+    {
+        "Question": "How does the privacy policy manage any conflicts of interest with regard to the application or exchange of data?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +1\n}"
+    },
+    {
+        "Question": "How does the privacy policy manage any conflicts of interest with regard to the application or exchange of data?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": 1,\n      \"clarity\": 1,\n      \"reference\": 0.5,\n      \"relevance\": 1,\n      \"accuracy\": 1\n    }"
+    },
+    {
+        "Question": "How does the privacy policy manage any conflicts of interest with regard to the application or exchange of data?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": 0, \"reference\": -1, \"relevance\": 0, \"accuracy\": -1}"
+    },
+    {
+        "Question": "How does the privacy policy manage any conflicts of interest with regard to the application or exchange of data?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": -1,\n\"relevance\": +1,\n\"accuracy\": -1\n} "
+    },
+    {
+        "Question": "What information do you collect?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"completeness\": +0.5,\n  \"clarity\": -1,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0\n}\n```"
+    },
+    {
+        "Question": "What information do you collect?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +0.5,\n      \"clarity\": +1,\n      \"reference\": -1,\n      \"relevance\": +0.5,\n      \"accuracy\": +0.5\n    }"
+    },
+    {
+        "Question": "What information do you collect?",
+        "Reviewer": "qwen2",
+        "Score": "{\n  \"completeness\": -1,\n  \"clarity\": -1,\n  \"reference\": 0,\n  \"relevance\": 1,\n  \"accuracy\": 0\n}"
+    },
+    {
+        "Question": "What information do you collect?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": -1,\n\"relevance\": +1,\n\"accuracy\": +0.5\n} "
+    },
+    {
+        "Question": "Do users have access to their data and privacy settings?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +0.5,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Do users have access to their data and privacy settings?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": +1,\n    \"clarity\": +1,\n    \"reference\": +0.5,\n    \"relevance\": +1,\n    \"accuracy\": +1\n  }"
+    },
+    {
+        "Question": "Do users have access to their data and privacy settings?",
+        "Reviewer": "qwen2",
+        "Score": "{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": 0,\n  \"relevance\": +1,\n  \"accuracy\": 0\n}"
+    },
+    {
+        "Question": "Do users have access to their data and privacy settings?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": 1,\n\"clarity\": 0.5,\n\"reference\": -0.5,\n\"relevance\": 1,\n\"accuracy\": 1\n} "
+    },
+    {
+        "Question": "Are there straightforward methods for users to request data access or deletion?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n\"completeness\": -0.5,\n\"clarity\": +0.5,\n\"reference\": -1,\n\"relevance\": +1,\n\"accuracy\": -1\n}"
+    },
+    {
+        "Question": "Are there straightforward methods for users to request data access or deletion?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": \"+0.5\",\n      \"clarity\": \"+1\",\n      \"reference\": \"-1\",\n      \"relevance\": \"+0.5\",\n      \"accuracy\": \"+0.5\"\n   }"
+    },
+    {
+        "Question": "Are there straightforward methods for users to request data access or deletion?",
+        "Reviewer": "qwen2",
+        "Score": "{\n\"completeness\": 1,\n\"clarity\": 1,\n\"reference\": +1,\n\"relevance\": +1,\n\"accuracy\": +1\n}"
+    },
+    {
+        "Question": "Are there straightforward methods for users to request data access or deletion?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +0.5,\n\"clarity\": +1,\n\"reference\": -1,\n\"relevance\": +1,\n\"accuracy\": +1\n} "
+    },
+    {
+        "Question": "How does the business handle user approval and revocation of approval?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n\"completeness\": -0.5,\n\"clarity\": +0.5,\n\"reference\": +0.5,\n\"relevance\": +1,\n\"accuracy\": -0.5\n}"
+    },
+    {
+        "Question": "How does the business handle user approval and revocation of approval?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +0.5,\n      \"clarity\": +1,\n      \"reference\": -1,\n      \"relevance\": +0.5,\n      \"accuracy\": +0.5\n    }"
+    },
+    {
+        "Question": "How does the business handle user approval and revocation of approval?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": +0.5, \"reference\": +1, \"relevance\": +1, \"accuracy\": +1}"
+    },
+    {
+        "Question": "How does the business handle user approval and revocation of approval?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n    \"completeness\": 0.5,\n    \"clarity\": 0.5,\n    \"reference\": 1,\n    \"relevance\": -0.5,\n    \"accuracy\": 1\n}\n```\nExplanation:\n\n* Completeness: The LLM answer is partially complete as it does not cover all the information provided in the annotated answer. It mentions the possibility of Spotify relying on explicit consent but does not mention that users can withdraw their consent for data processing based on legal basis.\n* Clarity: The LLM answer is somewhat clear but could be improved. It does provide some relevant information, such as adjusting privacy settings within the Spotify app or website, and reaching out to Spotify directly. However, it does not mention the possibility of users reaching out to Spotify's Data Protection Officer explicitly.\n* Reference: The LLM answer is accurate in referencing Part 1 but does not mention that Spotify states they will not discriminate against you for exercising any of your rights under any privacy law.\n* Relevance: The LLM answer is partially relevant as it mentions adjusting privacy settings within the Spotify app or website and reaching out to Spotify directly. However, it does not mention the possibility of users reaching out to Spotify's Data Protection Officer explicitly.\n* Accuracy: The LLM answer is accurate in providing information about managing privacy settings within the Spotify app or website and reaching out to Spotify directly. "
+    },
+    {
+        "Question": "Can I opt out of sharing my information?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "Can I opt out of sharing my information?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": -1,\n      \"clarity\": +1,\n      \"reference\": +0.5,\n      \"relevance\": +0.5,\n      \"accuracy\": 0\n    }"
+    },
+    {
+        "Question": "Can I opt out of sharing my information?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": 0, \"reference\": 0, \"relevance\": 0, \"accuracy\": 0}"
+    },
+    {
+        "Question": "Can I opt out of sharing my information?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": +1,\n  \"relevance\": +0.5,\n  \"accuracy\": -1\n}\n``` "
+    },
+    {
+        "Question": "Does the business reduce storage times?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +0.5,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Does the business reduce storage times?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": -0.5,\n      \"clarity\": +1,\n      \"reference\": -1,\n      \"relevance\": +0.5,\n      \"accuracy\": -1\n    }"
+    },
+    {
+        "Question": "Does the business reduce storage times?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": 0.5, \"reference\": -1, \"relevance\": -1, \"accuracy\": -1}"
+    },
+    {
+        "Question": "Does the business reduce storage times?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": -1,\n  \"accuracy\": -1\n}\n``` "
+    },
+    {
+        "Question": "How is user data aggregated or masked to safeguard personal information?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n  \"completeness\": -1,\n  \"clarity\": -1,\n  \"reference\": +0.5,\n  \"relevance\": -1,\n  \"accuracy\": -1\n}"
+    },
+    {
+        "Question": "How is user data aggregated or masked to safeguard personal information?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": 0.5,\n      \"clarity\": 1,\n      \"reference\": -1,\n      \"relevance\": 0.5,\n      \"accuracy\": 0\n   }"
+    },
+    {
+        "Question": "How is user data aggregated or masked to safeguard personal information?",
+        "Reviewer": "qwen2",
+        "Score": "{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}"
+    },
+    {
+        "Question": "How is user data aggregated or masked to safeguard personal information?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n    \"completeness\": -0.5,\n    \"clarity\": +1,\n    \"reference\": -1,\n    \"relevance\": -1,\n    \"accuracy\": -1\n}\n``` "
+    },
+    {
+        "Question": "Are there any limitations on how data may be processed for particular situations or purposes?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "Are there any limitations on how data may be processed for particular situations or purposes?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": +0.5,\n    \"clarity\": +1,\n    \"reference\": -1,\n    \"relevance\": +0.5,\n    \"accuracy\": +1\n  }"
+    },
+    {
+        "Question": "Are there any limitations on how data may be processed for particular situations or purposes?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": 0.5, \"reference\": 0, \"relevance\": 0, \"accuracy\": 0}"
+    },
+    {
+        "Question": "Are there any limitations on how data may be processed for particular situations or purposes?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": -1,\n  \"accuracy\": -1\n}\n``` "
+    },
+    {
+        "Question": "How long is any data saved held for?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": +0,\n  \"relevance\": +0.5,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "How long is any data saved held for?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +0.5,\n      \"clarity\": +1,\n      \"reference\": -1,\n      \"relevance\": +0.5,\n      \"accuracy\": +0.5\n    }"
+    },
+    {
+        "Question": "How long is any data saved held for?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": +0.5, \"reference\": +1, \"relevance\": +0, \"accuracy\": +0}"
+    },
+    {
+        "Question": "How long is any data saved held for?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n  \"completeness\": -0.5,\n  \"clarity\": +0.5,\n  \"reference\": +1,\n  \"relevance\": +0.5,\n  \"accuracy\": +0.5\n}\n``` "
+    },
+    {
+        "Question": "Do user communications employ end-to-end encryption?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +0.5,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Do user communications employ end-to-end encryption?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": -1,\n    \"clarity\": +0.5,\n    \"reference\": -1,\n    \"relevance\": -1,\n    \"accuracy\": -1\n}"
+    },
+    {
+        "Question": "Do user communications employ end-to-end encryption?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": +0.5, \"reference\": +1, \"relevance\": +0, \"accuracy\": +0}"
+    },
+    {
+        "Question": "Do user communications employ end-to-end encryption?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +0.5,\n\"clarity\": +1,\n\"reference\": +1,\n\"relevance\": +0.5,\n\"accuracy\": +0.5\n} "
+    },
+    {
+        "Question": "How are user data from being accessed without authorization prevented?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +1,\n  \"Accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "How are user data from being accessed without authorization prevented?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": +1,\n    \"clarity\": +1,\n    \"reference\": +1,\n    \"relevance\": +1,\n    \"accuracy\": +1\n}"
+    },
+    {
+        "Question": "How are user data from being accessed without authorization prevented?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\":1,\"clarity\":1,\"reference\":1,\"relevance\":1,\"accuracy\":1}"
+    },
+    {
+        "Question": "How are user data from being accessed without authorization prevented?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +1,\n\"clarity\": +1,\n\"reference\": -1,\n\"relevance\": +1,\n\"accuracy\": +0.5\n} "
+    },
+    {
+        "Question": "How are security-related incidents or thefts of information handled and informed to users?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +1,\n  \"Accuracy\": -1\n}"
+    },
+    {
+        "Question": "How are security-related incidents or thefts of information handled and informed to users?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": -1,\n    \"clarity\": 0.5,\n    \"reference\": -1,\n    \"relevance\": 0.5,\n    \"accuracy\": 0.5\n}"
+    },
+    {
+        "Question": "How are security-related incidents or thefts of information handled and informed to users?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": +0.5, \"reference\": 0, \"relevance\": +1, \"accuracy\": +1}"
+    },
+    {
+        "Question": "How are security-related incidents or thefts of information handled and informed to users?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": -1,\n\"relevance\": -1,\n\"accuracy\": -1\n} "
+    },
+    {
+        "Question": "What steps does this developer take to make sure my data they collected is secured?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +1,\n  \"Accuracy\": +0.5\n}"
+    },
+    {
+        "Question": "What steps does this developer take to make sure my data they collected is secured?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +1,\n      \"clarity\": +1,\n      \"reference\": +1,\n      \"relevance\": +1,\n      \"accuracy\": +1\n    }"
+    },
+    {
+        "Question": "What steps does this developer take to make sure my data they collected is secured?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\":1,\"clarity\":1,\"reference\":1,\"relevance\":2,\"accuracy\":1}"
+    },
+    {
+        "Question": "What steps does this developer take to make sure my data they collected is secured?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n  \"completeness\": +1,\n  \"clarity\": +1,\n  \"reference\": +0.5,\n  \"relevance\": +1,\n  \"accuracy\": +1\n}\n``` "
+    },
+    {
+        "Question": "Does the organization carry out privacy impact analyses?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Does the organization carry out privacy impact analyses?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": -0.5,\n      \"clarity\": +1,\n      \"reference\": -1,\n      \"relevance\": +0.5,\n      \"accuracy\": 0\n    }"
+    },
+    {
+        "Question": "Does the organization carry out privacy impact analyses?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": 0, \"clarity\": 1, \"reference\": 0, \"relevance\": 2, \"accuracy\": 0}"
+    },
+    {
+        "Question": "Does the organization carry out privacy impact analyses?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n    \"completeness\": -1,\n    \"clarity\": +0.5,\n    \"reference\": -1,\n    \"relevance\": -1,\n    \"accuracy\": -1\n}\n``` "
+    },
+    {
+        "Question": "Have any privacy-enhancing technologies",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +0.5,\n  \"Accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Have any privacy-enhancing technologies",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +1,\n      \"clarity\": +1,\n      \"reference\": +0.5,\n      \"relevance\": +1,\n      \"accuracy\": +0.5\n    }"
+    },
+    {
+        "Question": "Have any privacy-enhancing technologies",
+        "Reviewer": "qwen2",
+        "Score": "{\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": +1,\n\"relevance\": +1,\n\"accuracy\": +1\n}"
+    },
+    {
+        "Question": "Have any privacy-enhancing technologies",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n    \"completeness\": +1,\n    \"clarity\": +1,\n    \"reference\": +0.5,\n    \"relevance\": -1,\n    \"accuracy\": +0.5\n}\n``` "
+    },
+    {
+        "Question": "How does the use of automated decision-making or profiling by the firm affect the privacy of its customers?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +0.5,\n  \"Accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "How does the use of automated decision-making or profiling by the firm affect the privacy of its customers?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": 0.5,\n    \"clarity\": 1,\n    \"reference\": -1,\n    \"relevance\": 0.5,\n    \"accuracy\": 0.5\n   }"
+    },
+    {
+        "Question": "How does the use of automated decision-making or profiling by the firm affect the privacy of its customers?",
+        "Reviewer": "qwen2",
+        "Score": "{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": -1,\n  \"accuracy\": -1\n}"
+    },
+    {
+        "Question": "How does the use of automated decision-making or profiling by the firm affect the privacy of its customers?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n  \"completeness\": +1,\n  \"clarity\": +0.5,\n  \"reference\": +1,\n  \"relevance\": +1,\n  \"accuracy\": +1\n}\n``` "
+    },
+    {
+        "Question": "What sort of analytics are integrated into the app?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +0.5,\n  \"Accuracy\": -1\n}"
+    },
+    {
+        "Question": "What sort of analytics are integrated into the app?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": \"+0.5\",\n    \"clarity\": \"+1\",\n    \"reference\": \"+0.5\",\n    \"relevance\": \"+1\",\n    \"accuracy\": \"+0.5\"\n   }"
+    },
+    {
+        "Question": "What sort of analytics are integrated into the app?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": 0.5, \"clarity\": 1, \"reference\": 0, \"relevance\": 1, \"accuracy\": 1}"
+    },
+    {
+        "Question": "What sort of analytics are integrated into the app?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +1,\n\"clarity\": +0.5,\n\"reference\": +1,\n\"relevance\": -1,\n\"accuracy\": +1\n} "
+    },
+    {
+        "Question": "Is the privacy policy updated frequently and made available to users?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +1\n}\n```"
+    },
+    {
+        "Question": "Is the privacy policy updated frequently and made available to users?",
+        "Reviewer": "mistral",
+        "Score": " {\n  \"completeness\": +0.5,\n  \"clarity\": +1,\n  \"reference\": +1,\n  \"relevance\": +1,\n  \"accuracy\": +1\n}"
+    },
+    {
+        "Question": "Is the privacy policy updated frequently and made available to users?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\":1,\"clarity\":+0.5,\"reference\":+1,\"relevance\":+1,\"accuracy\":+1}"
+    },
+    {
+        "Question": "Is the privacy policy updated frequently and made available to users?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n  \"completeness\": +1,\n  \"clarity\": +1,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}\n```\nThe LLM answer is mostly relevant and partially relevant to the annotated response. It correctly states that Spotify's privacy policy is subject to occasional modifications but does not provide specific examples of such changes or mention that Spotify commits to informing users of any material changes in a clear and conspicuous manner. The LLM answer also mentions that notifications may be delivered through various methods, but it does not specify that this information can be found in Part 4 of the policy. "
+    },
+    {
+        "Question": "Does a procedure exist to handle user privacy complaints?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": +0.5,\n  \"relevance\": +1,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Does a procedure exist to handle user privacy complaints?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +1,\n      \"clarity\": +1,\n      \"reference\": +1,\n      \"relevance\": +1,\n      \"accuracy\": +1\n    }"
+    },
+    {
+        "Question": "Does a procedure exist to handle user privacy complaints?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": 1, \"clarity\": 1, \"reference\": 1, \"relevance\": 2, \"accuracy\": 0}"
+    },
+    {
+        "Question": "Does a procedure exist to handle user privacy complaints?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +1,\n\"clarity\": +1,\n\"reference\": +1,\n\"relevance\": +1,\n\"accuracy\": +1\n} "
+    },
+    {
+        "Question": "Does the business release transparency reports describing interactions with law enforcement or government agencies or data requests for surveillance?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Does the business release transparency reports describing interactions with law enforcement or government agencies or data requests for surveillance?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": 0.5,\n      \"clarity\": 1,\n      \"reference\": -1,\n      \"relevance\": 1,\n      \"accuracy\": 0.5\n    }"
+    },
+    {
+        "Question": "Does the business release transparency reports describing interactions with law enforcement or government agencies or data requests for surveillance?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": 0, \"clarity\": 1, \"reference\": 0, \"relevance\": -1, \"accuracy\": 0}"
+    },
+    {
+        "Question": "Does the business release transparency reports describing interactions with law enforcement or government agencies or data requests for surveillance?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +0.5,\n  \"accuracy\": -1\n}\n``` "
+    },
+    {
+        "Question": "Have you had any data breaches in the last couple of years?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +0.5,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Have you had any data breaches in the last couple of years?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": +0.5,\n    \"clarity\": +1,\n    \"reference\": -1,\n    \"relevance\": +0.5,\n    \"accuracy\": 0\n}"
+    },
+    {
+        "Question": "Have you had any data breaches in the last couple of years?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": 1, \"clarity\": 1, \"reference\": -1, \"relevance\": 0, \"accuracy\": -1}"
+    },
+    {
+        "Question": "Have you had any data breaches in the last couple of years?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n    \"completeness\": -1,\n    \"clarity\": +0.5,\n    \"reference\": +0.5,\n    \"relevance\": +0.5,\n    \"accuracy\": +0.5\n}\n``` "
+    },
+    {
+        "Question": "Do employees receive training on handling sensitive information and best practices for data privacy?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "Do employees receive training on handling sensitive information and best practices for data privacy?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": -1,\n      \"clarity\": +0.5,\n      \"reference\": 0,\n      \"relevance\": 0.5,\n      \"accuracy\": 0\n    }"
+    },
+    {
+        "Question": "Do employees receive training on handling sensitive information and best practices for data privacy?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\":1,\"clarity\":1,\"reference\":-1,\"relevance\":1,\"accuracy\":1}"
+    },
+    {
+        "Question": "Do employees receive training on handling sensitive information and best practices for data privacy?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": 0,\n\"relevance\": -1,\n\"accuracy\": +0.5\n} "
+    },
+    {
+        "Question": "How are user choices for data privacy maintained across many platforms or devices?",
+        "Reviewer": "llama3.1",
+        "Score": "```\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +0.5,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "How are user choices for data privacy maintained across many platforms or devices?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": -1,\n      \"clarity\": +0.5,\n      \"reference\": -1,\n      \"relevance\": -1,\n      \"accuracy\": -1\n    }"
+    },
+    {
+        "Question": "How are user choices for data privacy maintained across many platforms or devices?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": +0.5, \"reference\": +1, \"relevance\": +1, \"accuracy\": +0}"
+    },
+    {
+        "Question": "How are user choices for data privacy maintained across many platforms or devices?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n  \"completeness\": -0.5,\n  \"clarity\": +1,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": -1\n}\n``` "
+    },
+    {
+        "Question": "Does the company provide easy to use resources",
+        "Reviewer": "llama3.1",
+        "Score": "{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +0.5,\n  \"accuracy\": -1\n}"
+    },
+    {
+        "Question": "Does the company provide easy to use resources",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": +0.5,\n    \"clarity\": +1,\n    \"reference\": +1,\n    \"relevance\": +1,\n    \"accuracy\": +1\n  }"
+    },
+    {
+        "Question": "Does the company provide easy to use resources",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": 0, \"clarity\": 1, \"reference\": 1, \"relevance\": 2, \"accuracy\": 1}"
+    },
+    {
+        "Question": "Does the company provide easy to use resources",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +1,\n\"clarity\": +0.5,\n\"reference\": +1,\n\"relevance\": -1,\n\"accuracy\": +0.5\n} "
+    },
+    {
+        "Question": "Do you sell my information to third parties?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": -1,\n\"relevance\": +0.5,\n\"accuracy\": -1\n}"
+    },
+    {
+        "Question": "Do you sell my information to third parties?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +0.5,\n      \"clarity\": +1,\n      \"reference\": +0.5,\n      \"relevance\": +1,\n      \"accuracy\": +0.5\n   }"
+    },
+    {
+        "Question": "Do you sell my information to third parties?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": -1, \"reference\": -1, \"relevance\": +0, \"accuracy\": -1}"
+    },
+    {
+        "Question": "Do you sell my information to third parties?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -0.5,\n\"clarity\": +0.5,\n\"reference\": -1,\n\"relevance\": -0.5,\n\"accuracy\": +0.5\n} "
+    },
+    {
+        "Question": "Does this policy conform with all relevant privacy laws and regulations?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "Does this policy conform with all relevant privacy laws and regulations?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": +0.5,\n    \"clarity\": +1,\n    \"reference\": +0.5,\n    \"relevance\": +0.5,\n    \"accuracy\": -1\n}"
+    },
+    {
+        "Question": "Does this policy conform with all relevant privacy laws and regulations?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": 0.5, \"reference\": +1, \"relevance\": 1, \"accuracy\": 0}"
+    },
+    {
+        "Question": "Does this policy conform with all relevant privacy laws and regulations?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": 0,\n\"clarity\": 1,\n\"reference\": -1,\n\"relevance\": -1,\n\"accuracy\": -1\n} "
+    },
+    {
+        "Question": "What measures are made to guarantee that data processors and subprocessors respect privacy standards?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": -1,\n  \"Relevance\": +1,\n  \"Accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "What measures are made to guarantee that data processors and subprocessors respect privacy standards?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +1,\n      \"clarity\": +1,\n      \"reference\": +1,\n      \"relevance\": +1,\n      \"accuracy\": +1\n    }"
+    },
+    {
+        "Question": "What measures are made to guarantee that data processors and subprocessors respect privacy standards?",
+        "Reviewer": "qwen2",
+        "Score": "{\n\"completeness\": 1,\n\"clarity\": 0.5,\n\"reference\": 1,\n\"relevance\": 1,\n\"accuracy\": 1\n}"
+    },
+    {
+        "Question": "What measures are made to guarantee that data processors and subprocessors respect privacy standards?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +0.5,\n\"clarity\": +1,\n\"reference\": +1,\n\"relevance\": +0.5,\n\"accuracy\": +1\n} "
+    },
+    {
+        "Question": "Is there a procedure in place at the business for reporting and dealing with privacy violations or non-compliance issues",
+        "Reviewer": "llama3.1",
+        "Score": "{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}"
+    },
+    {
+        "Question": "Is there a procedure in place at the business for reporting and dealing with privacy violations or non-compliance issues",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +0.5,\n      \"clarity\": +1,\n      \"reference\": -1,\n      \"relevance\": +1,\n      \"accuracy\": +0.5\n   }"
+    },
+    {
+        "Question": "Is there a procedure in place at the business for reporting and dealing with privacy violations or non-compliance issues",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": +0.5, \"reference\": 0, \"relevance\": +1, \"accuracy\": +1}"
+    },
+    {
+        "Question": "Is there a procedure in place at the business for reporting and dealing with privacy violations or non-compliance issues",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": +0.5,\n\"relevance\": +1,\n\"accuracy\": +1\n} "
+    },
+    {
+        "Question": "Can I delete my data?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n\"Completeness\": -1,\n\"Clarity\": +0.5,\n\"Reference\": -1,\n\"Relevance\": +0.5,\n\"Accuracy\": -1\n}"
+    },
+    {
+        "Question": "Can I delete my data?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": \"+0.5\",\n      \"clarity\": \"+1\",\n      \"reference\": \"+0.5\",\n      \"relevance\": \"+1\",\n      \"accuracy\": \"+0.5\"\n    }"
+    },
+    {
+        "Question": "Can I delete my data?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": +0.5, \"reference\": +1, \"relevance\": +1, \"accuracy\": -1}"
+    },
+    {
+        "Question": "Can I delete my data?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": 0.5,\n\"clarity\": -1,\n\"reference\": -1,\n\"relevance\": +1,\n\"accuracy\": -1\n} "
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "Question": "Is the policy written in a way most people can understand?",
+        "Answer": " Yes, the policy appears to be written in a clear and concise manner that most people should be able to understand. It outlines the types of personal data collected, how it is used, and what measures are taken to protect that data. The language used in the policy is straightforward and easy to follow. "
+    },
+    {
+        "Question": "What does the company think about giving user data to the government?",
+        "Answer": " The company has put in place technical and organizational measures to guard against unauthorized access and unnecessary retention of personal data in their systems, but it's important to note that no system is ever completely secure. They also have a legal mechanism in place, such as encryption and pseudonymization policies and processes to challenge disproportionate or unlawful government authority requests. However, the company does not specify if they would provide user data to the government. "
+    }
+]

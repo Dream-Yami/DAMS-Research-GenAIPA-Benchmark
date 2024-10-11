@@ -1,0 +1,10 @@
+[
+    {
+        "Question": "Is the policy written in a way most people can understand?",
+        "Answer": "It's **generally** written in a way that most people could understand.  Here's why:\n\n* **Plain Language:** It avoids overly technical jargon and uses everyday words.\n* **Structure:** The use of numbered sections and clear headings makes it easy to navigate.\n* **Examples:** Providing examples like transferring data to the US helps illustrate complex points.\n\n**However, there are some areas that could be improved for clarity:**\n\n* **Legal Terminology:** While it avoids heavy jargon, some legal terms like \"Standard Contractual Clauses\" and \"Adequacy Decisions\" might still be unfamiliar to the average person. Explaining these in simpler terms within the text would be helpful.\n* **Conciseness:** Some paragraphs could be shorter and more concise for easier reading.\n\n**Overall:** The policy is written accessibly, but a few minor tweaks could make it even clearer for everyone. \n\n\n"
+    },
+    {
+        "Question": "What does the company think about giving user data to the government?",
+        "Answer": "Spotify states they will only remove unlawful content if required by law.  \n\nThis suggests that they are generally reluctant to give user data to the government but will comply with legal orders demanding it. \n\n\nThey also mention \"processes to challenge disproportionate or unlawful government authority requests,\" indicating they might fight against excessive or unjustified demands for user information.\n"
+    }
+]

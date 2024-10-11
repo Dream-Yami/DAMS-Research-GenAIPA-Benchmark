@@ -20,6 +20,10 @@ def resetQuestionAnswer():
     global question_list
     global annotated_answer_list
     global answerDict
+    global LLM_Scores
+    LLM_Scores = {}
+    for i in range(len(models)):
+        LLM_Scores[models[i]] = []
     question_list =[]
     annotated_answer_list = []
     answerDict = {}
@@ -42,10 +46,10 @@ def changeGlobals():
 for i in range(len(models)):
     answerDict[models[i]] = []
     
-LLM_Scores = {}
 #The dictionary is gonna have a key and pair
 #Key - The model that got the answer
 #Pair - A tuple that holds the question, the reviewing model, and the metrics the reviewing model gave for the key model
+LLM_Scores = {}
 for i in range(len(models)):
     LLM_Scores[models[i]] = []
 
@@ -69,6 +73,26 @@ def readQuestions(file_path):
             if row:
                 question_list.append(row[0])
                 
+def readParaQuestions(file_path):
+    col1 = []
+    col2 = []
+    col3 = []
+    try:
+        with open(file_path, mode='r', newline='', encoding='utf-8') as csv_file:
+            print("Reading File")
+            reader = csv.reader(csv_file, delimiter='\n')
+            for row in reader:
+                # Assuming each row contains exactly 3 questions
+                if len(row) == 1:  # If row has a single string
+                    questions = row[0].split(',')  # Split by comma
+                    if len(questions) >= 3:  # Ensure there are at least 3 questions
+                        col1.append(questions[0].strip())
+                        col2.append(questions[1].strip())
+                        col3.append(questions[2].strip())
+        return col1, col2, col3
+    except:
+        print("Error: File not Read")
+        return [], [], []
             
 #Now with a full list of questions, we can start prompting the ollama server
 def expOneModelCall(policyDoc):
@@ -90,11 +114,24 @@ def expThreeModelCall(policyDoc):
             model_summaries.append(expThree_One(models[j], policyDoc))
             answerDict[models[j]].append(expThree_Two(models[j], question_list[i], model_summaries[j]))
             print(models[j], question_list[i], i)
+            
+def expFourModelCall(policyDoc, question_para_list):
+    for i in range(len(question_para_list)):
+        for j  in range(len(models)):
+            answerDict[models[j]].append(expOne(models[j], question_para_list[i], policyDoc))
+            print(models[j], question_para_list[i], i)
     
 #With a list of answers, we can simply build and export the json file with answers
 def package(list, name, expName):
     os.makedirs(company, exist_ok=True)
     qa_Pairs = [{"Question": q, "Answer": a} for q, a in zip(question_list, list)]
+    json_file_name = company + "/" + name + "_answers_" + expName + '.json'
+    with open(json_file_name, 'w', encoding='utf-8') as json_file:
+        json.dump(qa_Pairs, json_file, indent=4)
+        
+def packagePara(list, name, expName, paraQuestions):
+    os.makedirs(company, exist_ok=True)
+    qa_Pairs = [{"Question": q, "Answer": a} for q, a in zip(paraQuestions, list)]
     json_file_name = company + "/" + name + "_answers_" + expName + '.json'
     with open(json_file_name, 'w', encoding='utf-8') as json_file:
         json.dump(qa_Pairs, json_file, indent=4)
@@ -128,6 +165,19 @@ def reviewAnswers(experimentName):
                 if j != k:
                     LLM_Scores[models[j]].append((models[k], question_list[i], genResponse(models[k], answerDict[models[j]][i], annotated_answer_list[i])))
                     print(models[j], models[k], question_list[i])
+    #print(LLM_Scores)
+    packageExpParent(LLM_Scores, experimentName)
+    
+def reviewParaAnswers(experimentName, question_para_list):
+    #I, will be the answer we are reviewing
+    for i in range(len(annotated_answer_list)):
+        #J will be the model's answer to be reviewed
+        for j in range(len(models)):
+            #k will be the model to review J's answer
+            for k in range(len(models)):
+                if j != k:
+                    LLM_Scores[models[j]].append((models[k], question_para_list[i], genResponse(models[k], answerDict[models[j]][i], annotated_answer_list[i])))
+                    print(models[j], models[k], question_para_list[i])
     #print(LLM_Scores)
     packageExpParent(LLM_Scores, experimentName)
 
@@ -166,16 +216,45 @@ def experimentThree():
     for i in range(len(models)):
         package(answerDict[models[i]], models[i], "expThree")
     reviewAnswers("ExpThree")
+    
+def experimentFour():
+    policyString = readPolicyDocuments(policyFile)
+    ##print(policyString)
+    readAnswers(answerFile)
+    col1, col2, col3 = readParaQuestions("ParaPrivacyPolicyQuestions.csv")
+    question_cols = [col1, col2, col3]
+    print(question_cols)
+    counter = 1
+    for col in question_cols:
+        global answerDict
+        answerDict = {}
+        for i in range(len(models)):
+            answerDict[models[i]] = []
+        
+        global LLM_Scores
+        LLM_Scores = {}
+        for i in range(len(models)):
+            LLM_Scores[models[i]] = []
+        
+        print("Beginning Answers")
+        expFourModelCall(policyString, col)
+        print("Beginning Reviews")
+        for i in range(len(models)):
+            packagePara(answerDict[models[i]], models[i], "ParaExpFour"+str(counter), col)
+        reviewParaAnswers("ParaExpFour"+str(counter), col)
+        counter += 1
 
 def run(companyName):
     global company
     company = companyName
     changeGlobals()
-    experimentOne()
-    resetQuestionAnswer()
-    experimentTwo()
-    resetQuestionAnswer()
-    experimentThree()
+    # experimentOne()
+    # resetQuestionAnswer()
+    # experimentTwo()
+    # resetQuestionAnswer()
+    # experimentThree()
+    # resetQuestionAnswer()
+    experimentFour()
     resetQuestionAnswer()
     print((time.time() - startTime)/60, " Minutes")
     print("completed")

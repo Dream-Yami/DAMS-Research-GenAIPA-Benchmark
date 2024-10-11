@@ -1,0 +1,10 @@
+[
+    {
+        "Question": "Is the policy easy to understand without fancy words?",
+        "Answer": " Yes, the policy is generally easy to understand as it avoids using overly complex or technical language. However, certain terms such as \"Standard Contractual Clauses (SCCs)\", \"Adequacy Decisions\", and some legal jargon might require a basic understanding of data protection laws for full comprehension."
+    },
+    {
+        "Question": "What's the company's take on sharing data with the government?",
+        "Answer": " The company emphasizes the importance of protecting user's personal data and follows applicable EU legislation when transferring data internationally. They use Standard Contractual Clauses (SCCs) and Adequacy Decisions to ensure compliance and provide similar levels of protection as in the EU.\n\nRegarding sharing data with governments, the policy mentions that they put technical protections, such as encryption and pseudonymization policies and processes, in place to challenge disproportionate or unlawful government authority requests. However, it's important to note that no system is ever completely secure.\n\nIn case of questions or concerns about this Policy, users can contact the company's Data Protection Officer through email, postal mail, or by writing to Spotify USA Inc., 150 Greenwich Street, Floor 62, New York, NY 10007, USA."
+    }
+]
