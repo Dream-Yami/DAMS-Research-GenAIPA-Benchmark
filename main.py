@@ -9,7 +9,7 @@ if __name__ == "__main__":
             runReg(regList[i])
             print("Finished:",regList[i])
     else:
-        policyList = ["Spotify"] #include "AirBnB", "Facebook", "Uber", "Spotify", "Twitter"
+        policyList = ["AirBnB", "Facebook", "Uber", "Spotify", "Twitter"] #include "AirBnB", "Facebook", "Uber", "Spotify", "Twitter"
         for i in range(len(policyList)):
             print("Starting:",policyList[i])
             run(policyList[i])
