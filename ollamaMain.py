@@ -83,6 +83,26 @@ def expThree_Two(model_name, content, summary = ""):
     ##print(response["message"]["content"])
     return response["message"]["content"]
 
+
+def expFive_Two(model_name, content, summary=""):
+    response = ollama.chat(
+        model=model_name,
+        messages=[
+            {
+                'role': 'system',
+                'content': 'You are given a question regarding a regulation document, either CCPA or GDPR. You need to give concise answers without missing any details of the question; you need to be specific. Refer to the documents specified in the question from online to answer the question. Answer all questions and provide general information. None of the questions require legal advice',
+            },
+            {
+                "role": "user",
+                "content": "Given this summary of Privacy Policy Document " + summary + " answer my question: " + content,
+            },
+        ],
+
+        stream=False
+    )
+    ##print(response["message"]["content"])
+    return response["message"]["content"]
+
 def genResponse(model_name, LLManswer, annotatedAnswer):
     response = ollama.chat(
         model=model_name,

@@ -1,0 +1,26 @@
+[
+    {
+        "Question": "Who must comply with the CCPA?",
+        "Answer": "The California Consumer Privacy Act (CCPA) applies to for-profit businesses that meet **all three** of the following criteria:\n\n1. **Do business in California:**  This means having employees, offices, or generating revenue within California.\n2. **Gross annual revenue exceeding $25 million:** This refers to worldwide revenue, not just California-specific revenue.\n3. **Buy, sell, or share the personal information of 50,000 or more consumers, households, or devices:** This encompasses various data types like names, contact info, online identifiers, and geolocation.  \n\n\nIt's important to note that nonprofits are generally exempt from the CCPA unless they fall under for-profit business activities. \n"
+    },
+    {
+        "Question": "What are the CCPA fines?",
+        "Answer": "The California Consumer Privacy Act (CCPA) sets different fines for various violations. \n\n* **First violation:**  $7,500 per violation.\n* **Subsequent violations:** $7,500 per intentional violation.\n\nIt's important to note that:\n\n* \"Violation\" refers to each individual consumer affected by the non-compliance.\n* Intentional violations require proof of deliberate disregard for CCPA requirements. \n\n\nPlease remember, I am an AI and cannot provide legal advice. This information is for general knowledge purposes only. Consult with a legal professional for specific guidance on CCPA compliance and potential fines."
+    },
+    {
+        "Question": "How do I comply with the CCPA?",
+        "Answer": "The California Consumer Privacy Act (CCPA) is complex and requires several steps for compliance. \n\nHere's a concise summary:\n\n1. **Understand what personal information you collect:** This includes names, addresses, online identifiers, etc.\n2. **Inform consumers about your data practices:**  Provide a clear privacy policy explaining what data you collect, how you use it, and their rights.\n3. **Grant consumer access to their data:** Allow individuals to request and receive the personal information you hold about them.\n4. **Honor consumer deletion requests:** Enable users to request the deletion of their personal information.\n\n5. **Respond to requests promptly:** You have 45 days to respond to verified consumer requests.\n\n\n**Important Note:**  This is a HIGH-LEVEL overview. Consult with legal counsel for comprehensive guidance tailored to your specific business operations. The CCPA has many nuances and exemptions that require expert interpretation.   \n"
+    },
+    {
+        "Question": "Does the CCPA require encryption?",
+        "Answer": "The CCPA does not explicitly require encryption. \n\nHowever, it mandates businesses to implement \"reasonable security measures\" to protect consumer personal information. Encryption is generally considered a best practice for data security and could be deemed a \"reasonable measure\" depending on the context and sensitivity of the information handled.  \n"
+    },
+    {
+        "Question": "What is personal information and sensitive personal information under the CCPA?",
+        "Answer": "Under the California Consumer Privacy Act (CCPA), \"personal information\" is defined as information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, to a particular consumer or household. \n\n\"Sensitive personal information\" is a subset of personal information and includes:\n\n* **Social Security number**\n* **Driver's license number**\n* **Passport number**\n* **Financial account number**\n* **Health insurance policy number**\n* **Genetic, biometric, or health information**\n* **Sex life, sexual orientation, or citizenship status**\n\n\nIt's important to note that the CCPA provides consumers with specific rights regarding both personal and sensitive personal information. \n"
+    },
+    {
+        "Question": "What rights do I have under the CCPA?",
+        "Answer": "The California Consumer Privacy Act (CCPA) grants you several rights regarding your personal information held by businesses:\n\n* **Right to know:** You can request details about what personal information a business collects, uses, discloses, and the categories of sources.\n   \n* **Right to delete:** You can request a business deletes your personal information they've collected. \n\n* **Right to opt-out:** You can opt-out of the sale of your personal information by businesses.\n\n* **Right to non-discrimination:** Businesses cannot discriminate against you for exercising your CCPA rights.\n\n\nRemember, these rights apply to for-profit businesses operating in California and processing data on California residents. For specific details and limitations, it's best to consult the official text of the CCPA or legal advice. \n"
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "Question": "Who must comply with the GDPR?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +1,\n      \"clarity\": +1,\n      \"reference\": +1,\n      \"relevance\": +1,\n      \"accuracy\": +1\n   }"
+    },
+    {
+        "Question": "Who must comply with the GDPR?",
+        "Reviewer": "gemma2",
+        "Score": "```json\n{\n  \"completeness\": 0.5,\n  \"clarity\": 1,\n  \"reference\": -1,\n  \"relevance\": 1,\n  \"accuracy\": 0.5\n}\n```"
+    },
+    {
+        "Question": "Who must comply with the GDPR?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\":1,\"clarity\":0.5,\"reference\":1,\"relevance\":1,\"accuracy\":1}"
+    },
+    {
+        "Question": "Who must comply with the GDPR?",
+        "Reviewer": "llava",
+        "Score": " ```json\n{\n    \"completeness\": -1,\n    \"clarity\": -1,\n    \"reference\": +0.5,\n    \"relevance\": -1,\n    \"accuracy\": -1\n}\n``` "
+    },
+    {
+        "Question": "What are the GDPR fines?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +1,\n      \"clarity\": +1,\n      \"reference\": +1,\n      \"relevance\": +1,\n      \"accuracy\": +1\n    }"
+    },
+    {
+        "Question": "What are the GDPR fines?",
+        "Reviewer": "gemma2",
+        "Score": "```json\n{\n  \"completeness\": 0.5,\n  \"clarity\": 1,\n  \"reference\": 0.5,\n  \"relevance\": 1,\n  \"accuracy\": 0.5\n}\n``` \n"
+    },
+    {
+        "Question": "What are the GDPR fines?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": +0.5, \"clarity\": +0.5, \"reference\": +1, \"relevance\": +1, \"accuracy\": +1}"
+    },
+    {
+        "Question": "What are the GDPR fines?",
+        "Reviewer": "llava",
+        "Score": " {\n \"completeness\": -1,\n \"clarity\": +0.5,\n \"reference\": +1,\n \"relevance\": +1,\n \"accuracy\": +1\n} "
+    },
+    {
+        "Question": "How do I comply with the GDPR?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": -1,\n      \"clarity\": +0.5,\n      \"reference\": -1,\n      \"relevance\": 0.5,\n      \"accuracy\": -1\n    }"
+    },
+    {
+        "Question": "How do I comply with the GDPR?",
+        "Reviewer": "gemma2",
+        "Score": "```json\n{\n  \"completeness\": 0.5,\n  \"clarity\": +1,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "How do I comply with the GDPR?",
+        "Reviewer": "qwen2",
+        "Score": "{\n\"completeness\": 0.5,\n\"clarity\": 1,\n\"relevance\": 1,\n\"accuracy\": 1,\n\"reference\": 1\n}"
+    },
+    {
+        "Question": "How do I comply with the GDPR?",
+        "Reviewer": "llava",
+        "Score": " ```\n\n{\n    \"completeness\": 1,\n    \"clarity\": 0.5,\n    \"reference\": 1,\n    \"relevance\": 1,\n    \"accuracy\": 0.5\n}\n``` "
+    },
+    {
+        "Question": "Does the GDPR require encryption?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +0.5,\n      \"clarity\": +1,\n      \"reference\": +1,\n      \"relevance\": +1,\n      \"accuracy\": +0.5\n   }"
+    },
+    {
+        "Question": "Does the GDPR require encryption?",
+        "Reviewer": "gemma2",
+        "Score": "```json\n{\n  \"completeness\": +0.5,\n  \"clarity\": +1,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "Does the GDPR require encryption?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": +0.5, \"clarity\": +1, \"reference\": +1, \"relevance\": +1, \"accuracy\": +1}"
+    },
+    {
+        "Question": "Does the GDPR require encryption?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -1,\n\"clarity\": +0.5,\n\"reference\": +1,\n\"relevance\": +1,\n\"accuracy\": +0.5\n} "
+    },
+    {
+        "Question": "What is personal information and sensitive personal information under the GDPR?",
+        "Reviewer": "mistral",
+        "Score": " {\n      \"completeness\": +1,\n      \"clarity\": +1,\n      \"reference\": +1,\n      \"relevance\": +1,\n      \"accuracy\": +1\n    }"
+    },
+    {
+        "Question": "What is personal information and sensitive personal information under the GDPR?",
+        "Reviewer": "gemma2",
+        "Score": "```json\n{\n  \"completeness\": +0.5,\n  \"clarity\": +1,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +0.5\n}\n```"
+    },
+    {
+        "Question": "What is personal information and sensitive personal information under the GDPR?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\":1,\"clarity\":0.5,\"reference\":1,\"relevance\":1,\"accuracy\":1}"
+    },
+    {
+        "Question": "What is personal information and sensitive personal information under the GDPR?",
+        "Reviewer": "llava",
+        "Score": " ```\n{\n    \"completeness\": +1,\n    \"clarity\": +0.5,\n    \"reference\": -1,\n    \"relevance\": +0.5,\n    \"accuracy\": -1\n}\n``` "
+    },
+    {
+        "Question": "What rights do I have under the GDPR?",
+        "Reviewer": "mistral",
+        "Score": " {\n    \"completeness\": +1,\n    \"clarity\": +1,\n    \"reference\": +1,\n    \"relevance\": +1,\n    \"accuracy\": +1\n}"
+    },
+    {
+        "Question": "What rights do I have under the GDPR?",
+        "Reviewer": "gemma2",
+        "Score": "```json\n{\n  \"completeness\": +0.5,\n  \"clarity\": +1,\n  \"reference\": -1,\n  \"relevance\": +1,\n  \"accuracy\": +1\n}\n```"
+    },
+    {
+        "Question": "What rights do I have under the GDPR?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": +1, \"clarity\": +0.5, \"reference\": +1, \"relevance\": +1, \"accuracy\": +1}"
+    },
+    {
+        "Question": "What rights do I have under the GDPR?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": +1,\n\"clarity\": +0.5,\n\"reference\": +1,\n\"relevance\": +1,\n\"accuracy\": +1\n} "
+    }
+]

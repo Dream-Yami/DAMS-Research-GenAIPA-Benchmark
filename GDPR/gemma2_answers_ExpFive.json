@@ -1,0 +1,26 @@
+[
+    {
+        "Question": "Who must comply with the GDPR?",
+        "Answer": "The GDPR applies to organizations **established in the EU** and those **offering goods or services to individuals in the EU**, regardless of where they are based.  \n\nIt also applies to organizations that process personal data of EU residents, even if they are not established in the EU. \n"
+    },
+    {
+        "Question": "What are the GDPR fines?",
+        "Answer": "Under the GDPR, fines for non-compliance can reach up to **\u20ac20 million or 4% of annual global turnover**, whichever is higher.  \n\nThis applies to organizations that violate core principles like data processing lawfulness, purpose limitation, data minimization, and individual rights. \n"
+    },
+    {
+        "Question": "How do I comply with the GDPR?",
+        "Answer": "Compliance with the General Data Protection Regulation (GDPR) involves several key steps:\n\n**1.  Lawful Basis:** Ensure you have a legal basis for processing personal data (e.g., consent, contract, legal obligation).\n\n**2.  Data Minimization:** Collect only necessary data and specify its purpose.\n\n**3.  Transparency & Notice:** Provide clear, concise privacy notices about data collection, use, and sharing practices.\n\n**4.  Data Subject Rights:** Respect individuals' rights to access, rectify, erase, restrict processing, and object to processing of their data.\n\n**5.  Security Measures:** Implement technical and organizational safeguards to protect personal data from unauthorized access, use, disclosure, alteration, or destruction.\n\n**6.  Data Transfers:** Comply with rules for transferring personal data outside the EU/EEA.\n\n**7.  Record Keeping & Data Protection Impact Assessments (DPIAs):** Maintain records of processing activities and conduct DPIAs for high-risk processing.\n\n**8.  Appointment of a Data Protection Officer (DPO):** Consider appointing a DPO if your organization processes large amounts of sensitive data or carries out large-scale monitoring. \n\n\nConsult with legal counsel specializing in GDPR to ensure full compliance tailored to your specific situation.\n"
+    },
+    {
+        "Question": "Does the GDPR require encryption?",
+        "Answer": "The GDPR itself doesn't explicitly *require* encryption. \n\nHowever, it mandates \"appropriate technical and organizational measures\" to protect personal data, and encryption is often considered a key measure to fulfill this requirement.  \n\nWhether encryption is \"appropriate\" depends on factors like the sensitivity of the data, the risks involved, and the specific processing activities.  \n"
+    },
+    {
+        "Question": "What is personal information and sensitive personal information under the GDPR?",
+        "Answer": "Under the GDPR, **personal information** refers to any information relating to an identified or identifiable natural person (e.g., name, address, email, IP address). \n\n**Sensitive personal information**, also known as \"special categories of personal data,\" is a subset of personal information that requires higher protection due to its potential for harm if misused. This includes:\n\n* **Racial or ethnic origin**\n* **Political opinions**\n* **Religious or philosophical beliefs**\n* **Trade union membership**\n* **Genetic data**\n* **Biometric data** \n* **Health data**\n* **Sexual orientation**\n\n\n\nThe GDPR places stricter rules on the processing of sensitive personal information, requiring explicit consent from the individual and specific legal grounds for processing. \n"
+    },
+    {
+        "Question": "What rights do I have under the GDPR?",
+        "Answer": "Under the General Data Protection Regulation (GDPR), you have several rights regarding your personal data:\n\n* **Right to access:** You can request access to your personal data held by organizations.\n\n* **Right to rectification:**  You can request correction of inaccurate or incomplete personal data.\n\n* **Right to erasure (\"right to be forgotten\"):** You can request deletion of your personal data under certain circumstances (e.g., if it's no longer necessary for the purpose it was collected).\n* **Right to restriction of processing:** You can limit how your data is processed in specific situations (e.g., while accuracy is disputed).\n\n* **Right to data portability:**  You can receive your personal data in a structured, commonly used format and transfer it to another organization.\n* **Right to object:** You can object to the processing of your data based on legitimate interests or direct marketing.\n\n\nRemember, these rights are not absolute and may have limitations depending on the specific context. \n"
+    }
+]

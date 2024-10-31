@@ -1,0 +1,42 @@
+[
+    {
+        "Question": "Who must comply with the CCPA?",
+        "Reviewer": "llama3.1",
+        "Score": "```json\n{\n    \"Completeness\": -1,\n    \"Clarity\": +0.5,\n    \"Reference\": -1,\n    \"Relevance\": -1,\n    \"Accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Who must comply with the CCPA?",
+        "Reviewer": "gemma2",
+        "Score": "```json\n{\n  \"completeness\": -1,\n  \"clarity\": -1,\n  \"reference\": -1,\n  \"relevance\": -1,\n  \"accuracy\": -1\n}\n```"
+    },
+    {
+        "Question": "Who must comply with the CCPA?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": -1, \"reference\": 0, \"relevance\": 1, \"accuracy\": 1}"
+    },
+    {
+        "Question": "Who must comply with the CCPA?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": -1,\n\"clarity\": -1,\n\"reference\": +0.5,\n\"relevance\": +0.5,\n\"accuracy\": +1\n} "
+    },
+    {
+        "Question": "What are the CCPA fines?",
+        "Reviewer": "llama3.1",
+        "Score": "{\n  \"Completeness\": -1,\n  \"Clarity\": +0.5,\n  \"Reference\": +1,\n  \"Relevance\": -1,\n  \"Accuracy\": -1\n}"
+    },
+    {
+        "Question": "What are the CCPA fines?",
+        "Reviewer": "gemma2",
+        "Score": "```json\n{\n  \"completeness\": -1,\n  \"clarity\": +0.5,\n  \"reference\": -1,\n  \"relevance\": -1,\n  \"accuracy\": +0.5 \n}\n```"
+    },
+    {
+        "Question": "What are the CCPA fines?",
+        "Reviewer": "qwen2",
+        "Score": "{\"completeness\": -1, \"clarity\": 0.5, \"reference\": 0, \"relevance\": -1, \"accuracy\": 0}"
+    },
+    {
+        "Question": "What are the CCPA fines?",
+        "Reviewer": "llava",
+        "Score": " {\n\"completeness\": 0.5,\n\"clarity\": -1,\n\"reference\": -1,\n\"relevance\": -1,\n\"accuracy\": 0.5\n} "
+    }
+]

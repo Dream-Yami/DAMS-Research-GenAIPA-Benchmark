@@ -1,4 +1,4 @@
-from ollamaMain import genResponse, expOne, expTwo, expThree_One, expThree_Two
+from ollamaMain import genResponse, expOne, expTwo, expThree_One, expThree_Two,expFive_Two
 import csv
 import json
 import time
@@ -121,11 +121,14 @@ def expFourModelCall(policyDoc, question_para_list):
             answerDict[models[j]].append(expOne(models[j], question_para_list[i], policyDoc))
             print(models[j], question_para_list[i], i)
 
-def expFiveModelCall(policyDoc, question_para_list):
-    for i in range(len(question_para_list)):
-        for j  in range(len(models)):
-            answerDict[models[j]].append(expOne(models[j], question_para_list[i], policyDoc))
-            print(models[j], question_para_list[i], i)
+def expFiveModelCall():
+    for i in range(len(question_list)):
+        for j in range(len(models)):
+            answerDict[models[j]].append(expTwo(models[j], question_list[i]))
+            print(models[j], question_list[i], i)
+        # response = expTwo(models[0], question_list[i])
+        # answerDict[models[0]].append(response)
+        # print(models[0], question_list[i], response)
 
 #With a list of answers, we can simply build and export the json file with answers
 def package(list, name, expName):
@@ -258,7 +261,7 @@ def experimentFive():
     readAnswers(answerFile)
     readQuestions(questionFile)
     print("Beginning Answers")
-    expTwoModelCall()
+    expFiveModelCall()
     print("Beginning Reviews")
     for i in range(len(models)):
         package(answerDict[models[i]], models[i], "ExpFive")
@@ -283,8 +286,10 @@ def run(companyName):
 def runReg(regulationName):
     global company
     global questionFile
+    global answerFile
     company = regulationName
     questionFile = regulationName+"RegulationQuestions.csv"
+    answerFile = regulationName+"annotatedAnswer.csv"
     resetQuestionAnswer()
     experimentFive()
 
