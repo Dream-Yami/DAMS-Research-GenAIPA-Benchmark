@@ -2,7 +2,7 @@
 import ollama
 
 def genFalcoResponse(content, policyDoc):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model="falcon",
         messages=[
             {

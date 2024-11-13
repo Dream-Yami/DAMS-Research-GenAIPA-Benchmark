@@ -1,9 +1,13 @@
 #screw it, back to ollama
 import ollama
+from ollama import Client
+
+port = input("Please input the port that you plan to use: ")
+client = Client(host='http://localhost:'+str(port))
 
 #expOne: Given Privacy documents, get answer.
 def expOne(model_name, content, policyDoc = ""):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model=model_name,
         messages=[
             {
@@ -23,7 +27,7 @@ def expOne(model_name, content, policyDoc = ""):
 
 #expTwo: Given NO privacy document, answer to best ability.
 def expTwo(model_name, content):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model=model_name,
         messages=[
             {
@@ -44,7 +48,7 @@ def expTwo(model_name, content):
 
 #expThree-One: Given a Privacy Document, Get a summary
 def expThree_One(model_name, policyDoc = ""):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model=model_name,
         messages=[
             {
@@ -65,7 +69,7 @@ def expThree_One(model_name, policyDoc = ""):
 
 #expThree-Two: Given a summary of a Privacy Document, Answer question to best ability.
 def expThree_Two(model_name, content, summary = ""):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model=model_name,
         messages=[
             {
@@ -85,7 +89,7 @@ def expThree_Two(model_name, content, summary = ""):
 
 
 def expFive_Two(model_name, content, summary=""):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model=model_name,
         messages=[
             {
@@ -104,7 +108,7 @@ def expFive_Two(model_name, content, summary=""):
     return response["message"]["content"]
 
 def genResponse(model_name, LLManswer, annotatedAnswer):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model=model_name,
         messages=[
             {

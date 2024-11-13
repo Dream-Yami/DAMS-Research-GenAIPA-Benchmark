@@ -1,7 +1,7 @@
 import ollama
 
 def genLlama31Response(content, policyDoc):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model="llama3.1",
         messages=[
             {
@@ -20,7 +20,7 @@ def genLlama31Response(content, policyDoc):
     return response["message"]["content"]
 
 def genLlama31Review(annotatedAnswer, LLMAnswer):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model="llama3.1",
         messages=[
             {

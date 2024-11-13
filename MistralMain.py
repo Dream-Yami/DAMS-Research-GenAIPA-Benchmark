@@ -2,7 +2,7 @@
 import ollama
 
 def genMistralResponse(content, policyDoc):
-    response = ollama.chat(
+    response = ollama.client.chat(
         model="mistral",
         messages=[
             {
